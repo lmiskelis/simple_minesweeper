@@ -1,0 +1,38 @@
+body{display: flex;}
+.lenta {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    
+
+}
+.start{
+    flex: 2;
+}
+.end
+{
+    flex: 1;
+    align-self: center;
+    display: none;
+    margin-left: 15px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: black solid 5px;
+    cursor: pointer;
+}
+.bad{
+    background: red !important; 
+}
+.good{background: green;}
+
+.none{
+    pointer-events: none;
+}
+
+.skipbad{
+    background-color: blueviolet;
+}
